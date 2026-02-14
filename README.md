@@ -11,7 +11,7 @@ This project is going to be used to demonstrate git cloning, editing, and pushin
 4. Commit your changes with a meaningful commit message.
 5. Wait for me to tell you when to push your changes to GitHub. Once you have the go-ahead, push your changes using `git push origin main` (or the appropriate branch name if you're working on a different branch).
 
-## Students Comments
+## Students Comments - Please add your name and a comment here
 #### Format:
 ####  - Your Name: Your message here.
 Example:
