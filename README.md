@@ -13,7 +13,7 @@ This project is going to be used to demonstrate git cloning, editing, and pushin
 
 ## Students Comments - Please add your name and a comment here
 #### Format:
-####  - Your Name: Your message here.
+MUHAMMAD Ahtisham Asghar: Hello, I'm excited to learn about git & version control!
 Example:
   - John Doe: Hello, I'm excited to learn about git and version control!
 
