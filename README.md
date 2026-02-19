@@ -14,6 +14,9 @@ This project is going to be used to demonstrate git cloning, editing, and pushin
 ## Students Comments - Please add your name and a comment here
 #### Format:
 ####  - Your Name: Your message here.
+
+  - Artem I.: I hope we don't run into too many conflicts...
+
 Example:
   - John Doe: Hello, I'm excited to learn about git and version control!
 
