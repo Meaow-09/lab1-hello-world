@@ -30,3 +30,25 @@ python main.py
 ## Files
 
 - [`main.py`](main.py): Main script that prints the message.
+
+## Journal Logging Convention
+
+- Every Copilot interaction should be logged in `JOURNAL.md`.
+- New entries must be prepended (most recent first).
+- Use timestamp format: `MM-DD-YYYY HH:MM`.
+- Include: Prompt, Changes Made, Reasons for Changes, and Context.
+
+### Entry Template
+
+```md
+**New Interaction**
+**Date**: MM-DD-YYYY HH:MM
+**User**: denis.amselem@gmail.com
+**Prompt**: <user prompt>
+**CoPilot Mode**: Agent
+**CoPilot Model**: GPT-5.3-Codex
+**Changes Made**: <summary>
+**Reasons for Changes**: <why>
+**Context**: <relevant notes>
+**My Observations**: 
+```
