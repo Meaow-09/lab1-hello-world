@@ -16,6 +16,9 @@ This project is going to be used to demonstrate git cloning, editing, and pushin
 ####  - Your Name: Your message here.
 Example:
   - John Doe: Hello, I'm excited to learn about git and version control!
+  
+  - Krishna Bansal : I'am excited to learn more about AI and it use in coding. 
+
 
 
 
