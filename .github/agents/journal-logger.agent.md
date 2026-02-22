@@ -36,7 +36,7 @@ Example format:
 **Changes Made**: [Summary of changes]
 **Reasons for Changes**: [Explanation of why changes were made]
 **Context**: [Any relevant context or notes]
-**My Observations**: [Optional personal observations or reflections to be filled by the user, so it should be empty by default]
+**My Observations**: [Optional personal observations or reflections to be filled by the user, so it should be empty by default - CoPilot should not fill this in, but it should be included in the template for the user to fill in after the fact]
 ```
 
 Ensure that the JOURNAL.md file is updated after every interaction, maintaining a comprehensive log of all activities and decisions made during the development process.
