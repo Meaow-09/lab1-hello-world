@@ -15,7 +15,10 @@ This project is going to be used to demonstrate git cloning, editing, and pushin
 #### Format:
 MUHAMMAD Ahtisham Asghar: Hello, I'm excited to learn about git & version control!
 Example:
-  - John Doe: Hello, I'm excited to learn about git and version control!
+
+  - [Your Name]: Excited to start working with Python and Git!
+  
+  # Replace [Your Name] with your actual name and feel free to personalize your comment.
 
 
 
