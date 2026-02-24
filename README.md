@@ -134,6 +134,7 @@ Justin D'COSTA: Bonjour!
 Fathima Gafoor : Hello , i am excited to improve practical Git skills
 Success Aderibigbe : Im so GOATED
 - [Artem I]: Am I doing this correctly?
+Abdulaziz Eusman: Solo leveling is mid.
 
 Example:
 
