@@ -134,7 +134,7 @@ Justin D'COSTA: Bonjour!
 Fathima Gafoor : Hello , i am excited to improve practical Git skills
 Success Aderibigbe : Im so GOATED
 Redowan Ahmed SAMEER: Hello, I am excited to improve practical Git skills.
-Demod Singh Tamang : I'm Groot!
+Demod Singh Tamang : Groot!
 - [Artem I]: Am I doing this correctly?
 Abdulaziz Eusman: Solo leveling is mid.
 
