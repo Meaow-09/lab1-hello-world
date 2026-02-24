@@ -114,8 +114,8 @@ python main.py
 
 ---
 # Git / GitHub Conflict Exercise Instructions
-# This was an exercise to demonstrate git cloning, editing, and pushing changes to a repository on GitHub, possibly dealing with merge conflicts, and other git-related operations.
-# It was meant to be done during the first 2 weeks of the course, but it can be done at any time as a practice exercise.
+### This was an exercise to demonstrate git cloning, editing, and pushing changes to a repository on GitHub, possibly dealing with merge conflicts, and other git-related operations.
+#### It was meant to be done during the first 2 weeks of the course, but it can be done at any time as a practice exercise.
 
 1. After cloning this repository, check your remote URL using `git remote -v` to ensure you have the correct access to the repository.
 2. Configure your git username and email if you haven't already, using `git config --global user.name "Your Name"` and `git config --global user.email ". Verify your configuration using `git config --global --list`.
@@ -125,24 +125,26 @@ python main.py
 
 ## Students Comments - Please add your name and a comment here
 #### Format:
-MUHAMMAD Ahtisham Asghar: Hello, I'm excited to learn about git & version control!
-
 ####  - Your Name: Your message here. 
 
-Abdullah Salman: Hello, I am excited to learn about git and version control
-Justin D'COSTA: Bonjour!
-Fathima Gafoor : Hello , i am excited to improve practical Git skills
-Success Aderibigbe : Im so GOATED
-Redowan Ahmed SAMEER: Hello, I am excited to improve practical Git skills.
-Demod Singh Tamang : Groot!
+- MUHAMMAD Ahtisham Asghar: Hello, I'm excited to learn about git & version control!
+
+- Abdullah Salman: Hello, I am excited to learn about git and version control
+- Justin D'COSTA: Bonjour!
+- Fathima Gafoor : Hello , i am excited to improve practical Git skills
+- Success Aderibigbe : Im so GOATED
+- Redowan Ahmed SAMEER: Hello, I am excited to improve practical Git skills.
+- Demod Singh Tamang : Groot!
+
 - [Artem I]: Am I doing this correctly?
-Abdulaziz Eusman: Solo leveling is mid.
+- Abdulaziz Eusman: Solo leveling is mid.
+- Yuchen: Hi!
 
 Example:
 
   - [Your Name]: Excited to start working with Python and Git!
-  
-  # Replace [Your Name] with your actual name and feel free to personalize your comment.
+
+  ### Replace [Your Name] with your actual name and feel free to personalize your comment.
 
 
 
