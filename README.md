@@ -17,11 +17,8 @@ The project was also originally created to be used for demonstrating git cloning
 #### Format:
 ####  - Your Name: Your message here.
 
-  - Artem I.: I hope we don't run into too many conflicts...
-
 Example:
   - John Doe: Hello, I'm excited to learn about git and version control!
-
 
 
 ## Usage
@@ -134,8 +131,9 @@ MUHAMMAD Ahtisham Asghar: Hello, I'm excited to learn about git & version contro
 
 Abdullah Salman: Hello, I am excited to learn about git and version control
 Justin D'COSTA: Bonjour!
- Fathima Gafoor : Hello , i am excited to improve practical Git skills
+Fathima Gafoor : Hello , i am excited to improve practical Git skills
 Success Aderibigbe : Im so GOATED
+- [Artem I]: Am I doing this correctly?
 
 Example:
 
