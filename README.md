@@ -143,6 +143,7 @@ python main.py
 - [Artem I]: Am I doing this correctly?
 - Abdulaziz Eusman: Solo leveling is mid.
 - Yuchen: Hi!
+- Busra: This is fun :D
 
 Example:
 
