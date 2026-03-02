@@ -138,6 +138,7 @@ python main.py
 - Success Aderibigbe : Im so GOATED
 - Redowan Ahmed SAMEER: Hello, I am excited to improve practical Git skills.
 - Demod Singh Tamang : Groot!
+- Michee - Lucas Izambay: Wazzup
 
 - [Artem I]: Am I doing this correctly?
 - Abdulaziz Eusman: Solo leveling is mid.
