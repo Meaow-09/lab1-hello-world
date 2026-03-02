@@ -19,10 +19,10 @@ The project was also originally created to be used for demonstrating git cloning
 
 Example:
   - John Doe: Hello, I'm excited to learn about git and version control!
-  
   - Krishna Bansal : I'am excited to learn more about AI and it use in coding. 
   - Piotr Moczulski : I'am excited to learn more about AI and it use in coding. 
   - Sebastian S. : Hello, how is the next person doing?
+  - Arkar Thurein : I'am excited to learn more about AI and it use in coding. 
 
 
 ## Usage
@@ -140,11 +140,11 @@ python main.py
 - Redowan Ahmed SAMEER: Hello, I am excited to improve practical Git skills.
 - Demod Singh Tamang : Groot!
 - Michee - Lucas Izambay: Wazzup
-
 - [Artem I]: Am I doing this correctly?
 - Abdulaziz Eusman: Solo leveling is mid.
 - Yuchen: Hi!
 - Busra: This is fun :D
+- Arkar Thurein: Excited to start working with Python and Git!
 
 Example:
 
