@@ -42,7 +42,7 @@ python main.py
 
 This repository uses two key configuration files to guide AI and document your work:
 
-- **Custom Instructions**: `.github/instructions/a4se.instructions.md`
+- **Custom Instructions**: `.github/copilot-instructions.md`
   - Defines project-specific rules for Copilot and other AI tools.
   - Ensures responses follow tutor-mode, incremental implementation, and journaling requirements.
   - No installation needed—just keep this file in place. The AI will read and follow it automatically.
@@ -54,7 +54,7 @@ This repository uses two key configuration files to guide AI and document your w
   - If you find out your JOURNAL.md is not updating, you may trigger an update at any by asking CoPilot to "update the JOURNAL.md with the latest interactions". You may also ask CoPilot to "read again the instructions in .github/instructions/ai4se.instructions.md and the journal-logger agent instructions in .github/agents/journal-logger.agent.md to make sure it is following them and updating the JOURNAL.md after every interaction".
 
 **How to update or customize:**
-- To change project rules, edit `.github/instructions/ai4se.instructions.md`.
+- To change project rules, edit `.github/copilot-instructions.md`.
 - To change logging format or user identity, edit `.github/agents/journal-logger.agent.md`.
 
 **Reference:**
@@ -66,7 +66,7 @@ This repository uses two key configuration files to guide AI and document your w
 You can easily reuse the custom instructions and journal-logger agent in any new project:
 
 1. **Copy the files:**
-  - `.github/instructions/ai4se.instructions.md`
+  - `.github/copilot-instructions.md`
   - `.github/agents/journal-logger.agent.md`
   - (Optional) Add a fresh `JOURNAL.md` to your new repo root.
 2. **Update as needed:**
@@ -79,29 +79,6 @@ You can easily reuse the custom instructions and journal-logger agent in any new
 **Tip:**
 - Keep your `.github` folder structure the same for best results.
 
-
----
-## Journal Logging Convention
-
-- Every Copilot interaction should be logged in `JOURNAL.md`.
-- New entries must be prepended (most recent first).
-- Use timestamp format: `MM-DD-YYYY HH:MM`.
-- Include: Prompt, Changes Made, Reasons for Changes, and Context.
-
-### Entry Template
-
-```md
-**New Interaction**
-**Date**: MM-DD-YYYY HH:MM
-**User**: denis.amselem@gmail.com
-**Prompt**: <user prompt>
-**CoPilot Mode**: Agent
-**CoPilot Model**: GPT-5.3-Codex
-**Changes Made**: <summary>
-**Reasons for Changes**: <why>
-**Context**: <relevant notes>
-**My Observations**: 
-```
 
 ---
 ## Usage

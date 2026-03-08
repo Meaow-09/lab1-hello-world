@@ -27,16 +27,16 @@ Always prepend new entries to keep reverse-chronological order.
 Example format:
 
 ```
-**New Interaction**
-**Date**: [Date and Time]
-**User**: [User's Name or Identifier which can be picked up from the environment's $USER variable]
-**Prompt**: [The prompt given]
-**CoPilot Mode**: [The mode of CoPilot being used for that prompt, if applicable, can be one of 'Ask','Edit', 'Plan', 'Agent']
-**CoPilot Model**: [The model of CoPilot being used for that prompt, if applicable, e.g., 'gpt-4', 'gpt-3.5-turbo']
-**Changes Made**: [Summary of changes]
-**Reasons for Changes**: [Explanation of why changes were made]
-**Context**: [Any relevant context or notes]
-**My Observations**: [Optional personal observations or reflections to be filled by the user, so it should be empty by default - CoPilot should not fill this in, but it should be included in the template for the user to fill in after the fact]
+### **New Interaction**
+- **Date**: [Date and Time]
+- **User**: [User's Name or Identifier which can be picked up from the environment's $USER variable]
+- **Prompt**: [The exact prompt given by the user to CoPilot. Do not paraphrase or summarize the prompt; it should be a verbatim record.]
+- **CoPilot Mode**: [The mode of CoPilot being used for that prompt, if applicable, can be one of 'Ask','Edit', 'Plan', 'Agent']
+- **CoPilot Model**: [The model of CoPilot being used for that prompt, if applicable, e.g., 'gpt-4', 'gpt-3.5-turbo']
+- **Changes Made**: [Summary of changes]
+- **Reasons for Changes**: [Explanation of why changes were made]
+- **Context**: [Any relevant context or notes]
+- **My Observations**: [Optional personal observations or reflections to be filled by the user, so it should be empty by default - CoPilot should not fill this in, but it should be included in the template for the user to fill in after the fact]
 ```
 
 Ensure that the JOURNAL.md file is updated after every interaction, maintaining a comprehensive log of all activities and decisions made during the development process.
