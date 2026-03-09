@@ -124,10 +124,10 @@ python main.py
 - Yuchen: Hi!
 - Busra: This is fun :D
 - Arkar Thurein: Excited to start working with Python and Git!
-
+-Nidhish Srinivasan Krishnassamy: Excited to start learning Git, Python and AI tools
 Example:
 
-  - [Your Name]: Excited to start working with Python and Git!
+  -Nidhish Srinivasan Krishnassamy: Excited to start working with Python and Git!
 
   ### Replace [Your Name] with your actual name and feel free to personalize your comment.
 
