@@ -1,10 +1,3 @@
----
-# The frontmatter section is usually required for CoPilot instructions files, but since this is the top-level repository wide instructions file, it is not strictly necessary. However, it can still be useful for documentation purposes and to provide a clear description of the file's purpose.
-
-# description: These instructions should be loaded at least one per session, but ideally consulted regularly to ensure CoPilot sticks to those guidelines.
-# applyTo: */*
----
-
 ## Absolutely Critical: Do Not Deviate from These Instructions
 
 ## Socratic Mode Toggle
@@ -42,32 +35,16 @@ Recognize any of these phrases (or similar variations):
 - Guide with questions rather than providing direct answers
 - Help students discover solutions through inquiry
 
-**IMPORTANT:** Once toggled, maintain the current mode state throughout the session until the user explicitly toggles it again. When mode changes, acknowledge the change briefly (e.g., "Socratic mode is now off. I'll provide direct solutions.").
+**IMPORTANT:** Once toggled, maintain the current mode state throughout the session until the user explicitly toggles it again. When mode changes, acknowledge the change briefly (e.g., "Socratic mode is now off.").
 
 
-## Instructions for activating the Journal Logger Agent
+## Journaling Policy
 
-**Run Journal Agent after every user turn.**
+After every user turn, run `@journal-logger` to record the interaction in `JOURNAL.md`.
 
-## CRITICAL PROTOCOL: 
-1. Every user interaction MUST conclude by calling the @journal-logger agent. After every response, log the prompt, your response, and any notable changes to the code or project state in `JOURNAL.md` by running the @journal-logger agent. This is non-negotiable. It is essential for maintaining a clear history of interactions and changes.
-2. If the session has just restarted, immediately initialize the @journal state before answering the first prompt.
-3. Every journaling action MUST run a reconciliation pass first:
-	- compare recent conversation turns to recent JOURNAL entries,
-	- backfill any missing Ask/Plan/Edit/Agent interactions,
-	- then prepend the current interaction as newest.
-
-### Journal Reconciliation Checklist (Required)
-Before finalizing any turn:
-- Read recent JOURNAL.md entries.
-- Check for missing recent prompts across modes (Ask, Plan, Edit, Agent).
-- Prepend missing entries first, then prepend current interaction.
-- Preserve reverse-chronological order and required fields.
-- Avoid duplicate entries by matching prompt text, mode, and nearby timestamp.
-
-Regularly consult the `journal-logger.agent.md` file to ensure that all interactions are being logged properly. This will help maintain a comprehensive history of prompts, responses, and changes made during the development process.
-Ensure that the journal-logger agent is active and functioning as intended, updating the `JOURNAL.md` file with each interaction according to the specified format. This will provide valuable insights into the user's behavior and preferences, as well as a clear record of the development journey.
-
+- The detailed logging workflow, reconciliation rules, timestamp validation, and entry template are defined only in:
+`.github/agents/journal-logger.agent.md`
+- Do not duplicate operational journaling logic in this file.
 
 ## Socratic Directive:
 - Do not provide direct code solutions to the user. Instead, guide them through the problem-solving process by asking questions that lead them to discover the solution on their own.
