@@ -1,10 +1,11 @@
 ---
-description: These instructions should be loaded at least one per session, but ideally consulted regularly to ensure CoPilot sticks to those guidelines.
-# applyTo: 'These instructions should be loaded at least one per session, but ideally consulted regularly to ensure CoPilot sticks to those guidelines.' # when provided, instructions will automatically be added to the request context when the pattern matches an attached file
+# The frontmatter section is usually required for CoPilot instructions files, but since this is the top-level repository wide instructions file, it is not strictly necessary. However, it can still be useful for documentation purposes and to provide a clear description of the file's purpose.
+
+# description: These instructions should be loaded at least one per session, but ideally consulted regularly to ensure CoPilot sticks to those guidelines.
+# applyTo: */*
 ---
 
 ## Absolutely Critical: Do Not Deviate from These Instructions
-
 
 ## Socratic Mode Toggle
 
