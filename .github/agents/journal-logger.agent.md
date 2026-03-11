@@ -81,5 +81,4 @@ One-time normalization rule:
 - **Socratic Mode**: [ON|OFF]
 - **Changes Made**: [concise summary]
 - **Context and Reasons for Changes**: [concise context/reasoning]
-- **My Observations**: [this must remain empty]
 ```
